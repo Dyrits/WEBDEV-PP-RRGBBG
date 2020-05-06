@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  text-align: center;
+  margin: 50px auto;
+  font-family: 'Irish Grover', cursive;
+}
+
+.add-button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  border: none;
+  border-radius: 15px;
+  color: #FFF;
+  background-color: #45567D;
+  -webkit-box-shadow: 0 8px #576d9e;
+          box-shadow: 0 8px #576d9e;
+}
+
+.add-button::-moz-focus-inner {
+  border: 0;
+}
+
+.add-button:hover {
+  background-color: #333f5c;
+}
+
+.add-button:active {
+  background-color: #2a344c;
+  -webkit-box-shadow: 0 4px #3c4b6d;
+          box-shadow: 0 4px #3c4b6d;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  outline: 0;
+}
+
+.pile {
+  vertical-align: top;
+  width: 160px;
+  height: 500px;
+  display: inline-block;
+  border: 1px solid #45567D;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  display: inline-block;
+  width: 175px;
+  margin-bottom: 25px;
+}
+
+.brick {
+  width: 160px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+}
+/*# sourceMappingURL=style.css.map */
